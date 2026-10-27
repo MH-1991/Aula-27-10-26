@@ -1,5 +1,6 @@
 <?php
-$palavra = _GET
+$palavra = $_GET['palavra'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,6 @@ $palavra = _GET
 </head>
 <body>
     <h1>Resultado da Pesquisa:</h1>
-    <p>Voce pesquisou:</p>
+    <p>Voce pesquisou por: <?php echo $palavra; ?></p>
 </body>
 </html>
