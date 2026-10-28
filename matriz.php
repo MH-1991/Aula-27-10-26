@@ -26,8 +26,8 @@
         echo"<table>";
         for($l=0;$l<$linhas;$l++){
             echo "<tr>";
-            for($c=0;$c<$colunas;$c++);{
-            echo "<td>"
+            for($c=0;$c<$colunas;$c++){
+            echo "<td>";
             echo "Celula [$l, $c]";
             echo "<td>";
         }
@@ -36,6 +36,5 @@
     echo "</table>";
 }
 ?>
-
 </body>
 </html>
